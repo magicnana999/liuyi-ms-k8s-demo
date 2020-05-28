@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: liuyi-config
+  labels:
+    name: liuyi-config
+data:
+  application-mysql.yaml: |
+    config:
+      key1: value1
+      key2:
+        key21: value2
+      key3: value3
+  application-redis.yaml: |
+    config:
+      key4: value4

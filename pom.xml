@@ -171,12 +171,4 @@
 
 
     </build>
-
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Magicnana999 Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/magicnana999/liuyi-ms</url>
-        </repository>
-    </distributionManagement>
 </project>

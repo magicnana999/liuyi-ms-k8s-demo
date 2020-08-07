@@ -21,7 +21,7 @@ public class LiuYiApiContextValidator extends ApiContextValidator {
     private static final Logger logger = LoggerFactory.getLogger(LiuYiApiContextValidator.class);
 
     public String getSomething(){
-        return ApiContext.getContext().getExt().get(SOMETHING);
+        return (String)ApiContext.getContext().getExt().get(SOMETHING);
     }
 
 
